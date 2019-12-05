@@ -33,8 +33,9 @@ And if you use html requests:
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010276` open  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010074` close  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010175` stop  
+the end of step-by-step guide
 
-
+Other details:
 functionId and dpId Setup:  
 ```
 stat/tasmota/RESULT = [{"fnId":11, "dpId":1},{"fnId":12, "dpId":101},{"fnId":13, "dpId":103}]
