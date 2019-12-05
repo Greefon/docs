@@ -6,7 +6,7 @@ Original manufacturer's firmware of this motor [here](https://github.com/Greefon
 
 Don't forget to share what you have discovered and tested here in wiki :smiley:  
 
-To flash the motor follow ste-by-step guide:
+To flash the motor follow this step-by-step guide:
 
 1) Download the latest TASMOTA firmware (tasmota.bin) from [here](https://github.com/arendst/Tasmota/releases)
 2) Download TASMOTIZER (flasher software to upload the TASMOTA) from [here](https://github.com/tasmota/tasmotizer)
