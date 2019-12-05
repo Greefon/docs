@@ -20,8 +20,6 @@ RX -> TX;
 VCC -> 3.3V;
 GND -> GND;
 RST -> GND (temporaly connect RST to GND)
-
-
 4a) You may also use [this](https://www.thingiverse.com/thing:3229822/) connector and nails or pins for simpliest way. You may print this connector using 3D printing online service, like Shapeways for example.
 5) After you connected ESP and USB-TTL open the TASMOTIZER, choose port, select your tasmota.bin firmware, tick the option backup the original forware and we are almost ready to flash.
 6) Now you must enter the ESP to bootmode by connecting GPIO0 and RST (reboot) simolatiously to GND. Then wait 3 seconds and release RST, wait another 3 seconds and release GPIO0. Push Tazmotize! in flashing software. If you did everything right the process will start, if not check connection and start paragraph 6 from the begining.
