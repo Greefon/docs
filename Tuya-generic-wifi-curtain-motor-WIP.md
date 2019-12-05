@@ -29,9 +29,10 @@ RST -> GND (temporaly connect RST to GND)
 10) Go to module parameters and select module type "Tuya MCU (54)", GPIO1 Serial Out - "Tuya TX (107)", GPIO3 Serial In - "Tuya Rx (108)" and click Save.
 11) Now go to Console and type "tuymcu 11,1" push enter, "tuymcu 12,101" push enter, "tuymcu 13,103" push enter.
 12) Now you are good to go and control motor by opening URLs in browser:
-`http://IPaddress/cm?cmnd=SerialSend5%2055aa00060005650400010276` CLOSE
-`http://IPaddress/cm?cmnd=SerialSend5%2055aa00060005650400010074` OPEN
-`http://IPaddress/cm?cmnd=SerialSend5%2055aa00060005650400010175` STOP
+And if you use html requests:  
+`http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010276` open  
+`http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010074` close  
+`http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010175` stop  
 
 
 functionId and dpId Setup:  
