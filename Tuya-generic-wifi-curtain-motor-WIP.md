@@ -6,6 +6,8 @@ Original manufacturer's firmware of this motor [here](https://github.com/Greefon
 
 Don't forget to share what you have discovered and tested here in wiki :smiley:  
 
+Here is a working backup [here](https://github.com/Greefon/docs/blob/master/Config_tasmota_6572_7.1.2.dmp) for the motor. IP after uploading is set to 192.168.1.141 
+
 To flash the motor follow this step-by-step guide (this setup works stable on firmware 7.1.2):
 
 1) Download the latest TASMOTA firmware (tasmota.bin) from [here](https://github.com/arendst/Tasmota/releases)
