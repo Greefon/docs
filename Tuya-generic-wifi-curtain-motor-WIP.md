@@ -34,9 +34,7 @@ And if you use html requests:
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010074` close  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010175` stop  
 13) if you're experiencing blocking of motor these commands in console should help:
-SetOption60 1 (sets Normal Sleep mode) and 
-
-Sleep 0 (sets zero time for Sleep)
+SetOption60 1 (sets Normal Sleep mode) and Sleep 0 (sets zero time for Sleep)
 
 the end of step-by-step guide
 
