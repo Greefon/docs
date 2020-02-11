@@ -6,7 +6,7 @@ Original manufacturer's firmware of this motor [here](https://github.com/Greefon
 
 Don't forget to share what you have discovered and tested here in wiki :smiley:  
 
-To flash the motor follow this step-by-step guide:
+To flash the motor follow this step-by-step guide (this setup works stable on firmware 7.1.2):
 
 1) Download the latest TASMOTA firmware (tasmota.bin) from [here](https://github.com/arendst/Tasmota/releases)
 2) Download TASMOTIZER (flasher software to upload the TASMOTA) from [here](https://github.com/tasmota/tasmotizer)
@@ -33,6 +33,10 @@ And if you use html requests:
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010276` open  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010074` close  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010175` stop  
+13) if you're experiencing blocking of motor these commands in console should help:
+SetOption60 1 (sets Normal Sleep mode)
+Sleep 0 (sets zero time for Sleep)
+
 the end of step-by-step guide
 
 Other details:
