@@ -29,7 +29,7 @@ RST -> GND (temporaly connect RST to GND)
 8) Connect to wifi, it should open the dialog window to provide tasmota with wifi name and password. It will reboot then.
 9) Enter the ip address of tasmota into the browser and you shall see tasmota's interface.
 10) Go to module parameters and select module type "Tuya MCU (54)", GPIO1 Serial Out - "Tuya TX (107)", GPIO3 Serial In - "Tuya Rx (108)" and click Save.
-11) Now go to Console and type "tuymcu 11,1" push enter, "tuymcu 12,101" push enter, "tuymcu 13,103" push enter.
+11) Now go to Console and type "tuyamcu 11,1" push enter, "tuyamcu 12,101" push enter, "tuyamcu 13,103" push enter.
 12) Now you are good to go and control motor by opening URLs in browser:
 And if you use html requests:  
 `http://ip/cm?cmnd=SerialSend5%2055aa00060005650400010276` open  
